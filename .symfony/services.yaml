@@ -1,0 +1,6 @@
+# servizio db è un database PostgreSQL da usare su un container di 1GB di spazio su disco
+
+db:
+  type: postgresql:13
+  disk: 1024
+  size: S
